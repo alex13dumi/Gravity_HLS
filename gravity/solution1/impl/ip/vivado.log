@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Feb 27 16:19:30 2022
+# Process ID: 11496
+# Current directory: C:/Users/alex1/AppData/Roaming/Xilinx/Vitis/gravity/solution1/impl/ip
+# Command line: vivado.exe -notrace -mode batch -source run_ippack.tcl
+# Log file: C:/Users/alex1/AppData/Roaming/Xilinx/Vitis/gravity/solution1/impl/ip/vivado.log
+# Journal file: C:/Users/alex1/AppData/Roaming/Xilinx/Vitis/gravity/solution1/impl/ip\vivado.jou
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Vivado/Vivado/2020.2/data/ip'.
+WARNING: [IP_Flow 19-4832] The IP name 'gravity_ap_fcmp_0_no_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'gravity_ap_fcmp_0_no_dsp_32'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'gravity_ap_fcmp_0_no_dsp_32'...
+WARNING: [IP_Flow 19-4832] The IP name 'gravity_ap_fdiv_14_no_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'gravity_ap_fdiv_14_no_dsp_32'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'gravity_ap_fdiv_14_no_dsp_32'...
+WARNING: [IP_Flow 19-4832] The IP name 'gravity_ap_fmul_2_max_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'gravity_ap_fmul_2_max_dsp_32'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'gravity_ap_fmul_2_max_dsp_32'...
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Vivado/Vivado/2020.2/data/ip'.
+INFO: [Common 17-206] Exiting Vivado at Sun Feb 27 16:19:41 2022...

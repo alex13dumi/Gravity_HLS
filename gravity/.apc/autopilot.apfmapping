@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="core.cpp" path="C:\Users\alex1\AppData\Roaming\Xilinx\Vitis\core.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="test_core.h" path="C:\Users\alex1\AppData\Roaming\Xilinx\Vitis\test_core.h"/>
+    <originFiles name="test_core.cpp" path="C:\Users\alex1\AppData\Roaming\Xilinx\Vitis\test_core.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

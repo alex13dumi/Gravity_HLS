@@ -1,0 +1,358 @@
+m1=10 m2=20
+1) Force:2000000000.000000 Ref:2000000000.000000 Diff: 0.000000
+2) Force:2000.000000 Ref:2000.000000 Diff: 0.000000
+3) Force:500.000000 Ref:500.000000 Diff: 0.000000
+4) Force:222.222229 Ref:222.222222 Diff: 0.000007
+5) Force:125.000000 Ref:125.000000 Diff: 0.000000
+6) Force:80.000000 Ref:80.000000 Diff: 0.000000
+7) Force:55.555557 Ref:55.555556 Diff: 0.000002
+8) Force:40.816326 Ref:40.816327 Diff: 0.000000
+9) Force:31.250000 Ref:31.250000 Diff: 0.000000
+10) Force:24.691359 Ref:24.691358 Diff: 0.000001
+No error occured average error: 0.000001
+
+C:\Users\alex1\AppData\Roaming\Xilinx\Vitis\gravity\solution1\sim\verilog>set PATH= 
+
+C:\Users\alex1\AppData\Roaming\Xilinx\Vitis\gravity\solution1\sim\verilog>call F:/Vivado/Vivado/2020.2/bin/xelab xil_defaultlib.apatb_gravity_top glbl -prj gravity.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm  -L floating_point_v7_0_18 -L floating_point_v7_1_11 --lib "ieee_proposed=./ieee_proposed" -s gravity -debug wave 
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: F:/Vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_gravity_top glbl -prj gravity.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm -L floating_point_v7_0_18 -L floating_point_v7_1_11 --lib ieee_proposed=./ieee_proposed -s gravity -debug wave 
+Multi-threading is on. Using 10 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/alex1/AppData/Roaming/Xilinx/Vitis/gravity/solution1/sim/verilog/ip/xil_defaultlib/gravity_ap_fcmp_0_no_dsp_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gravity_ap_fcmp_0_no_dsp_32
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/alex1/AppData/Roaming/Xilinx/Vitis/gravity/solution1/sim/verilog/ip/xil_defaultlib/gravity_ap_fdiv_14_no_dsp_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gravity_ap_fdiv_14_no_dsp_32
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/alex1/AppData/Roaming/Xilinx/Vitis/gravity/solution1/sim/verilog/ip/xil_defaultlib/gravity_ap_fmul_2_max_dsp_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gravity_ap_fmul_2_max_dsp_32
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/alex1/AppData/Roaming/Xilinx/Vitis/gravity/solution1/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/alex1/AppData/Roaming/Xilinx/Vitis/gravity/solution1/sim/verilog/AESL_axi_slave_CRTLS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_slave_CRTLS
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/alex1/AppData/Roaming/Xilinx/Vitis/gravity/solution1/sim/verilog/gravity.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_gravity_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/alex1/AppData/Roaming/Xilinx/Vitis/gravity/solution1/sim/verilog/gravity.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gravity
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/alex1/AppData/Roaming/Xilinx/Vitis/gravity/solution1/sim/verilog/gravity_CRTLS_s_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gravity_CRTLS_s_axi
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/alex1/AppData/Roaming/Xilinx/Vitis/gravity/solution1/sim/verilog/gravity_fcmp_32ns_32ns_1_2_no_dsp_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gravity_fcmp_32ns_32ns_1_2_no_dsp_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/alex1/AppData/Roaming/Xilinx/Vitis/gravity/solution1/sim/verilog/gravity_fdiv_32ns_32ns_32_16_no_dsp_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gravity_fdiv_32ns_32ns_32_16_no_dsp_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/alex1/AppData/Roaming/Xilinx/Vitis/gravity/solution1/sim/verilog/gravity_fmul_32ns_32ns_32_4_max_dsp_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gravity_fmul_32ns_32ns_32_4_max_dsp_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/alex1/AppData/Roaming/Xilinx/Vitis/gravity/solution1/sim/verilog/csv_file_dump.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/alex1/AppData/Roaming/Xilinx/Vitis/gravity/solution1/sim/verilog/dataflow_monitor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataflow_monitor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/alex1/AppData/Roaming/Xilinx/Vitis/gravity/solution1/sim/verilog/df_fifo_interface.sv" into library xil_defaultlib
+WARNING: [VRFC 10-3609] overwriting previous definition of interface 'df_fifo_intf' [C:/Users/alex1/AppData/Roaming/Xilinx/Vitis/gravity/solution1/sim/verilog/df_fifo_interface.sv:4]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/alex1/AppData/Roaming/Xilinx/Vitis/gravity/solution1/sim/verilog/df_fifo_monitor.sv" into library xil_defaultlib
+WARNING: [VRFC 10-3609] overwriting previous definition of interface 'df_fifo_intf' [C:/Users/alex1/AppData/Roaming/Xilinx/Vitis/gravity/solution1/sim/verilog/df_fifo_interface.sv:4]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/alex1/AppData/Roaming/Xilinx/Vitis/gravity/solution1/sim/verilog/df_process_interface.sv" into library xil_defaultlib
+WARNING: [VRFC 10-3609] overwriting previous definition of interface 'df_process_intf' [C:/Users/alex1/AppData/Roaming/Xilinx/Vitis/gravity/solution1/sim/verilog/df_process_interface.sv:4]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/alex1/AppData/Roaming/Xilinx/Vitis/gravity/solution1/sim/verilog/df_process_monitor.sv" into library xil_defaultlib
+WARNING: [VRFC 10-3609] overwriting previous definition of interface 'df_process_intf' [C:/Users/alex1/AppData/Roaming/Xilinx/Vitis/gravity/solution1/sim/verilog/df_process_interface.sv:4]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/alex1/AppData/Roaming/Xilinx/Vitis/gravity/solution1/sim/verilog/dump_file_agent.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/alex1/AppData/Roaming/Xilinx/Vitis/gravity/solution1/sim/verilog/nodf_module_interface.sv" into library xil_defaultlib
+WARNING: [VRFC 10-3609] overwriting previous definition of interface 'nodf_module_intf' [C:/Users/alex1/AppData/Roaming/Xilinx/Vitis/gravity/solution1/sim/verilog/nodf_module_interface.sv:4]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/alex1/AppData/Roaming/Xilinx/Vitis/gravity/solution1/sim/verilog/nodf_module_monitor.sv" into library xil_defaultlib
+WARNING: [VRFC 10-3609] overwriting previous definition of interface 'nodf_module_intf' [C:/Users/alex1/AppData/Roaming/Xilinx/Vitis/gravity/solution1/sim/verilog/nodf_module_interface.sv:4]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/alex1/AppData/Roaming/Xilinx/Vitis/gravity/solution1/sim/verilog/sample_agent.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/alex1/AppData/Roaming/Xilinx/Vitis/gravity/solution1/sim/verilog/sample_manager.sv" into library xil_defaultlib
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package floating_point_v7_1_11.floating_point_v7_1_11_viv_comp
+Compiling package ieee.numeric_std
+Compiling package xbip_utils_v3_0_10.xbip_utils_v3_0_10_pkg
+Compiling package axi_utils_v2_0_6.axi_utils_v2_0_6_pkg
+Compiling package floating_point_v7_1_11.floating_point_v7_1_11_consts
+Compiling package ieee.math_real
+Compiling package floating_point_v7_1_11.floating_point_v7_1_11_exp_table...
+Compiling package mult_gen_v12_0_16.mult_gen_v12_0_16_pkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package floating_point_v7_1_11.floating_point_v7_1_11_pkg
+Compiling package floating_point_v7_1_11.flt_utils
+Compiling package unisim.vcomponents
+Compiling package xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv_comp
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package xil_defaultlib.$unit_dataflow_monitor_sv
+Compiling module xil_defaultlib.gravity_CRTLS_s_axi
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=0,adreg=0,alum...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_11.delay [\delay(width=7,length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_11.delay [\delay(width=4,length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_11.delay [\delay(length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_11.delay [\delay(width=16,length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_11.delay [\delay(width=24,length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_11.delay [\delay(width=17,length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_11.delay [\delay(width=25,length=0)\]
+Compiling architecture rtl of entity floating_point_v7_1_11.dsp48e1_wrapper [\dsp48e1_wrapper(a_width=24,b_wi...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=0,adreg=0,alum...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_11.delay [\delay(width=48,length=0)\]
+Compiling architecture rtl of entity floating_point_v7_1_11.dsp48e1_wrapper [\dsp48e1_wrapper(a_width=24,b_wi...]
+Compiling architecture struct of entity floating_point_v7_1_11.fix_mult_dsp48e1_sgl [\fix_mult_dsp48e1_sgl(registers=...]
+Compiling architecture rtl of entity floating_point_v7_1_11.fix_mult [\fix_mult(c_xdevicefamily="zynq"...]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_11.delay [\delay(width=8,length=0,fast_inp...]
+Compiling architecture struct of entity floating_point_v7_1_11.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_11.delay [\delay(width=32,length=0)\]
+Compiling architecture struct of entity floating_point_v7_1_11.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture synth of entity floating_point_v7_1_11.compare_eq_im [\compare_eq_im(c_xdevicefamily="...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_11.delay [\delay(length=0,fast_input=true)...]
+Compiling architecture rtl of entity floating_point_v7_1_11.special_detect [\special_detect(c_xdevicefamily=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_11.delay [delay_default]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_11.delay [\delay(width=2,fast_input=true)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_11.delay [\delay(fast_input=true)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_11.delay [\delay(width=4,fast_input=true)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_11.delay [\delay(width=8)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_11.delay [\delay(width=3,length=0,fast_inp...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_11.delay [\delay(width=4,length=0,fast_inp...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_11.delay [\delay(width=14,length=0)\]
+Compiling architecture rtl of entity floating_point_v7_1_11.flt_mult_exp [\flt_mult_exp(c_xdevicefamily="z...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=0,adreg=0,alum...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_11.delay [\delay(width=30,length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_11.delay [\delay(width=18,length=0)\]
+Compiling architecture rtl of entity floating_point_v7_1_11.dsp48e1_wrapper [\dsp48e1_wrapper(a_width=30,b_wi...]
+Compiling architecture struct of entity floating_point_v7_1_11.flt_round_dsp_opt_full [\flt_round_dsp_opt_full(c_xdevic...]
+Compiling architecture rtl of entity floating_point_v7_1_11.flt_mult_round [\flt_mult_round(c_xdevicefamily=...]
+Compiling architecture synth of entity floating_point_v7_1_11.flt_dec_op_lat [\flt_dec_op_lat(c_xdevicefamily=...]
+Compiling architecture rtl of entity floating_point_v7_1_11.flt_mult [\flt_mult(c_xdevicefamily="zynq"...]
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture xilinx of entity floating_point_v7_1_11.floating_point_v7_1_11_viv [\floating_point_v7_1_11_viv(c_xd...]
+Compiling architecture xilinx of entity floating_point_v7_1_11.floating_point_v7_1_11 [\floating_point_v7_1_11(c_xdevic...]
+Compiling module xil_defaultlib.gravity_ap_fmul_2_max_dsp_32
+Compiling module xil_defaultlib.gravity_fmul_32ns_32ns_32_4_max_...
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_11.delay [\delay(width=23,length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_11.delay [\delay(width=25,length=0,fast_in...]
+Compiling architecture struct of entity floating_point_v7_1_11.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture synth of entity floating_point_v7_1_11.flt_div_mant_addsub [\flt_div_mant_addsub(c_xdevicefa...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_11.delay [\delay(width=26,length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_11.delay [\delay(width=23)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_11.delay [\delay(width=25,fast_input=true)...]
+Compiling architecture struct of entity floating_point_v7_1_11.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture synth of entity floating_point_v7_1_11.flt_div_mant_addsub [\flt_div_mant_addsub(c_xdevicefa...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_11.delay [\delay(width=26)\]
+Compiling architecture virtex of entity floating_point_v7_1_11.flt_div_mant [\flt_div_mant(c_xdevicefamily="z...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_11.delay [\delay(width=10,fast_input=true)...]
+Compiling architecture rtl of entity floating_point_v7_1_11.special_detect [\special_detect(c_xdevicefamily=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_11.delay [\delay(length=13,fast_input=true...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_11.delay [\delay(width=8,length=12)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_11.delay [\delay(length=12,fast_input=true...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_11.delay [\delay(width=3,length=12,fast_in...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_11.delay [\delay(width=4,length=12,fast_in...]
+Compiling architecture rtl of entity floating_point_v7_1_11.flt_div_exp [\flt_div_exp(c_xdevicefamily="no...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_11.delay [\delay(width=8,length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_11.delay [\delay(width=12,length=0,fast_in...]
+Compiling architecture struct of entity floating_point_v7_1_11.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture struct of entity floating_point_v7_1_11.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_11.delay [\delay(width=3,length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_11.delay [\delay(width=2,length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_11.delay [\delay(width=2,length=0,fast_inp...]
+Compiling architecture struct of entity floating_point_v7_1_11.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture rtl of entity floating_point_v7_1_11.flt_round_bit [\flt_round_bit(c_xdevicefamily="...]
+Compiling architecture rtl of entity floating_point_v7_1_11.renorm_and_round_logic [\renorm_and_round_logic(c_xdevic...]
+Compiling architecture synth of entity floating_point_v7_1_11.flt_dec_op_lat [\flt_dec_op_lat(c_xdevicefamily=...]
+Compiling architecture virtex of entity floating_point_v7_1_11.flt_div [\flt_div(c_xdevicefamily="zynq",...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture xilinx of entity floating_point_v7_1_11.floating_point_v7_1_11_viv [\floating_point_v7_1_11_viv(c_xd...]
+Compiling architecture xilinx of entity floating_point_v7_1_11.floating_point_v7_1_11 [\floating_point_v7_1_11(c_xdevic...]
+Compiling module xil_defaultlib.gravity_ap_fdiv_14_no_dsp_32
+Compiling module xil_defaultlib.gravity_fdiv_32ns_32ns_32_16_no_...
+Compiling architecture synth of entity floating_point_v7_1_11.compare_eq_im [\compare_eq_im(c_xdevicefamily="...]
+Compiling architecture synth of entity floating_point_v7_1_11.compare_ne_im [\compare_ne_im(c_xdevicefamily="...]
+Compiling architecture struct of entity floating_point_v7_1_11.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture synth of entity floating_point_v7_1_11.compare_eq_im [\compare_eq_im(c_xdevicefamily="...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_11.delay [\delay(width=11,length=0)\]
+Compiling architecture struct of entity floating_point_v7_1_11.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture synth of entity floating_point_v7_1_11.compare_eq [\compare_eq(c_xdevicefamily="zyn...]
+Compiling architecture struct of entity floating_point_v7_1_11.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture synth of entity floating_point_v7_1_11.compare_gt [\compare_gt(c_xdevicefamily="zyn...]
+Compiling architecture rtl of entity floating_point_v7_1_11.fp_cmp [\fp_cmp(c_xdevicefamily="zynq",c...]
+Compiling architecture xilinx of entity floating_point_v7_1_11.floating_point_v7_1_11_viv [\floating_point_v7_1_11_viv(c_xd...]
+Compiling architecture xilinx of entity floating_point_v7_1_11.floating_point_v7_1_11 [\floating_point_v7_1_11(c_xdevic...]
+Compiling module xil_defaultlib.gravity_ap_fcmp_0_no_dsp_32
+Compiling module xil_defaultlib.gravity_fcmp_32ns_32ns_1_2_no_ds...
+Compiling module xil_defaultlib.gravity
+Compiling module xil_defaultlib.AESL_axi_slave_CRTLS
+Compiling module xil_defaultlib.nodf_module_intf
+Compiling module xil_defaultlib.dataflow_monitor_1
+Compiling module xil_defaultlib.apatb_gravity_top
+Compiling module work.glbl
+Built simulation snapshot gravity
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/alex1/AppData/Roaming/Xilinx/Vitis/gravity/solution1/sim/verilog/xsim.dir/gravity/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/alex1/AppData/Roaming/Xilinx/Vitis/gravity/solution1/sim/verilog/xsim.dir/gravity/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Sun Feb 27 15:54:42 2022. For additional details about this file, please refer to the WebTalk help file at F:/Vivado/Vivado/2020.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Sun Feb 27 15:54:42 2022...
+
+****** xsim v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/gravity/xsim_script.tcl
+# xsim {gravity} -view {{gravity_dataflow_ana.wcfg}} -tclbatch {gravity.tcl} -protoinst {gravity.protoinst}
+Vivado Simulator 2020.2
+INFO: [Wavedata 42-565] Reading protoinst file gravity.protoinst
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_gravity_top/AESL_inst_gravity//AESL_inst_gravity_activity
+Time resolution is 1 ps
+open_wave_config gravity_dataflow_ana.wcfg
+source gravity.tcl
+## log_wave -r /
+WARNING: [Simtcl 6-197] One or more HDL objects could not be logged because of object type or size limitations.  To see details please rerun the command with -verbose (-v).
+## set designtopgroup [add_wave_group "Design Top Signals"]
+## set cinoutgroup [add_wave_group "C InOuts" -into $designtopgroup]
+## set m1__m2__return__return_group [add_wave_group m1__m2__return__return(axi_slave) -into $cinoutgroup]
+## add_wave /apatb_gravity_top/AESL_inst_gravity/interrupt -into $m1__m2__return__return_group -color #ffff00 -radix hex
+## add_wave /apatb_gravity_top/AESL_inst_gravity/s_axi_CRTLS_BRESP -into $m1__m2__return__return_group -radix hex
+## add_wave /apatb_gravity_top/AESL_inst_gravity/s_axi_CRTLS_BREADY -into $m1__m2__return__return_group -color #ffff00 -radix hex
+## add_wave /apatb_gravity_top/AESL_inst_gravity/s_axi_CRTLS_BVALID -into $m1__m2__return__return_group -color #ffff00 -radix hex
+## add_wave /apatb_gravity_top/AESL_inst_gravity/s_axi_CRTLS_RRESP -into $m1__m2__return__return_group -radix hex
+## add_wave /apatb_gravity_top/AESL_inst_gravity/s_axi_CRTLS_RDATA -into $m1__m2__return__return_group -radix hex
+## add_wave /apatb_gravity_top/AESL_inst_gravity/s_axi_CRTLS_RREADY -into $m1__m2__return__return_group -color #ffff00 -radix hex
+## add_wave /apatb_gravity_top/AESL_inst_gravity/s_axi_CRTLS_RVALID -into $m1__m2__return__return_group -color #ffff00 -radix hex
+## add_wave /apatb_gravity_top/AESL_inst_gravity/s_axi_CRTLS_ARREADY -into $m1__m2__return__return_group -color #ffff00 -radix hex
+## add_wave /apatb_gravity_top/AESL_inst_gravity/s_axi_CRTLS_ARVALID -into $m1__m2__return__return_group -color #ffff00 -radix hex
+## add_wave /apatb_gravity_top/AESL_inst_gravity/s_axi_CRTLS_ARADDR -into $m1__m2__return__return_group -radix hex
+## add_wave /apatb_gravity_top/AESL_inst_gravity/s_axi_CRTLS_WSTRB -into $m1__m2__return__return_group -radix hex
+## add_wave /apatb_gravity_top/AESL_inst_gravity/s_axi_CRTLS_WDATA -into $m1__m2__return__return_group -radix hex
+## add_wave /apatb_gravity_top/AESL_inst_gravity/s_axi_CRTLS_WREADY -into $m1__m2__return__return_group -color #ffff00 -radix hex
+## add_wave /apatb_gravity_top/AESL_inst_gravity/s_axi_CRTLS_WVALID -into $m1__m2__return__return_group -color #ffff00 -radix hex
+## add_wave /apatb_gravity_top/AESL_inst_gravity/s_axi_CRTLS_AWREADY -into $m1__m2__return__return_group -color #ffff00 -radix hex
+## add_wave /apatb_gravity_top/AESL_inst_gravity/s_axi_CRTLS_AWVALID -into $m1__m2__return__return_group -color #ffff00 -radix hex
+## add_wave /apatb_gravity_top/AESL_inst_gravity/s_axi_CRTLS_AWADDR -into $m1__m2__return__return_group -radix hex
+## set cinputgroup [add_wave_group "C Inputs" -into $designtopgroup]
+## set distance_group [add_wave_group distance(wire) -into $cinputgroup]
+## add_wave /apatb_gravity_top/AESL_inst_gravity/distance -into $distance_group -radix hex
+## set blocksiggroup [add_wave_group "Block-level IO Handshake(internal)" -into $designtopgroup]
+## add_wave /apatb_gravity_top/AESL_inst_gravity/ap_done -into $blocksiggroup
+## add_wave /apatb_gravity_top/AESL_inst_gravity/ap_idle -into $blocksiggroup
+## add_wave /apatb_gravity_top/AESL_inst_gravity/ap_ready -into $blocksiggroup
+## add_wave /apatb_gravity_top/AESL_inst_gravity/ap_start -into $blocksiggroup
+## set resetgroup [add_wave_group "Reset" -into $designtopgroup]
+## add_wave /apatb_gravity_top/AESL_inst_gravity/ap_rst_n -into $resetgroup
+## set clockgroup [add_wave_group "Clock" -into $designtopgroup]
+## add_wave /apatb_gravity_top/AESL_inst_gravity/ap_clk -into $clockgroup
+## set testbenchgroup [add_wave_group "Test Bench Signals"]
+## set tbinternalsiggroup [add_wave_group "Internal Signals" -into $testbenchgroup]
+## set tb_simstatus_group [add_wave_group "Simulation Status" -into $tbinternalsiggroup]
+## set tb_portdepth_group [add_wave_group "Port Depth" -into $tbinternalsiggroup]
+## add_wave /apatb_gravity_top/AUTOTB_TRANSACTION_NUM -into $tb_simstatus_group -radix hex
+## add_wave /apatb_gravity_top/ready_cnt -into $tb_simstatus_group -radix hex
+## add_wave /apatb_gravity_top/done_cnt -into $tb_simstatus_group -radix hex
+## add_wave /apatb_gravity_top/LENGTH_m1 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_gravity_top/LENGTH_m2 -into $tb_portdepth_group -radix hex
+## add_wave /apatb_gravity_top/LENGTH_distance -into $tb_portdepth_group -radix hex
+## add_wave /apatb_gravity_top/LENGTH_ap_return -into $tb_portdepth_group -radix hex
+## set tbcinoutgroup [add_wave_group "C InOuts" -into $testbenchgroup]
+## set tb_m1__m2__return__return_group [add_wave_group m1__m2__return__return(axi_slave) -into $tbcinoutgroup]
+## add_wave /apatb_gravity_top/CRTLS_INTERRUPT -into $tb_m1__m2__return__return_group -color #ffff00 -radix hex
+## add_wave /apatb_gravity_top/CRTLS_BRESP -into $tb_m1__m2__return__return_group -radix hex
+## add_wave /apatb_gravity_top/CRTLS_BREADY -into $tb_m1__m2__return__return_group -color #ffff00 -radix hex
+## add_wave /apatb_gravity_top/CRTLS_BVALID -into $tb_m1__m2__return__return_group -color #ffff00 -radix hex
+## add_wave /apatb_gravity_top/CRTLS_RRESP -into $tb_m1__m2__return__return_group -radix hex
+## add_wave /apatb_gravity_top/CRTLS_RDATA -into $tb_m1__m2__return__return_group -radix hex
+## add_wave /apatb_gravity_top/CRTLS_RREADY -into $tb_m1__m2__return__return_group -color #ffff00 -radix hex
+## add_wave /apatb_gravity_top/CRTLS_RVALID -into $tb_m1__m2__return__return_group -color #ffff00 -radix hex
+## add_wave /apatb_gravity_top/CRTLS_ARREADY -into $tb_m1__m2__return__return_group -color #ffff00 -radix hex
+## add_wave /apatb_gravity_top/CRTLS_ARVALID -into $tb_m1__m2__return__return_group -color #ffff00 -radix hex
+## add_wave /apatb_gravity_top/CRTLS_ARADDR -into $tb_m1__m2__return__return_group -radix hex
+## add_wave /apatb_gravity_top/CRTLS_WSTRB -into $tb_m1__m2__return__return_group -radix hex
+## add_wave /apatb_gravity_top/CRTLS_WDATA -into $tb_m1__m2__return__return_group -radix hex
+## add_wave /apatb_gravity_top/CRTLS_WREADY -into $tb_m1__m2__return__return_group -color #ffff00 -radix hex
+## add_wave /apatb_gravity_top/CRTLS_WVALID -into $tb_m1__m2__return__return_group -color #ffff00 -radix hex
+## add_wave /apatb_gravity_top/CRTLS_AWREADY -into $tb_m1__m2__return__return_group -color #ffff00 -radix hex
+## add_wave /apatb_gravity_top/CRTLS_AWVALID -into $tb_m1__m2__return__return_group -color #ffff00 -radix hex
+## add_wave /apatb_gravity_top/CRTLS_AWADDR -into $tb_m1__m2__return__return_group -radix hex
+## set tbcinputgroup [add_wave_group "C Inputs" -into $testbenchgroup]
+## set tb_distance_group [add_wave_group distance(wire) -into $tbcinputgroup]
+## add_wave /apatb_gravity_top/distance -into $tb_distance_group -radix hex
+## save_wave_config gravity.wcfg
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 10 [0.00%] @ "125000"
+// RTL Simulation : 1 / 10 [34.78%] @ "875000"
+// RTL Simulation : 2 / 10 [34.78%] @ "1615000"
+// RTL Simulation : 3 / 10 [34.78%] @ "2355000"
+// RTL Simulation : 4 / 10 [34.78%] @ "3095000"
+// RTL Simulation : 5 / 10 [34.78%] @ "3835000"
+// RTL Simulation : 6 / 10 [34.78%] @ "4575000"
+// RTL Simulation : 7 / 10 [34.78%] @ "5315000"
+// RTL Simulation : 8 / 10 [34.78%] @ "6055000"
+// RTL Simulation : 9 / 10 [34.78%] @ "6795000"
+// RTL Simulation : 10 / 10 [100.00%] @ "7535000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 7575 ns : File "C:/Users/alex1/AppData/Roaming/Xilinx/Vitis/gravity/solution1/sim/verilog/gravity.autotb.v" Line 371
+## quit
+INFO: [Common 17-206] Exiting xsim at Sun Feb 27 15:54:50 2022...
+m1=10 m2=20
+1) Force:2000000000.000000 Ref:2000000000.000000 Diff: 0.000000
+2) Force:2000.000000 Ref:2000.000000 Diff: 0.000000
+3) Force:500.000000 Ref:500.000000 Diff: 0.000000
+4) Force:222.222229 Ref:222.222222 Diff: 0.000007
+5) Force:125.000000 Ref:125.000000 Diff: 0.000000
+6) Force:80.000000 Ref:80.000000 Diff: 0.000000
+7) Force:55.555557 Ref:55.555556 Diff: 0.000002
+8) Force:40.816326 Ref:40.816327 Diff: 0.000000
+9) Force:31.250000 Ref:31.250000 Diff: 0.000000
+10) Force:24.691359 Ref:24.691358 Diff: 0.000001
+No error occured average error: 0.000001

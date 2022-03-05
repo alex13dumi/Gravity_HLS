@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Feb 27 15:54:39 2022
+# Process ID: 11160
+# Current directory: C:/Users/alex1/AppData/Roaming/Xilinx/Vitis/gravity/solution1/sim/verilog
+# Command line: wbtcv.exe -mode batch -source C:/Users/alex1/AppData/Roaming/Xilinx/Vitis/gravity/solution1/sim/verilog/xsim.dir/gravity/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/alex1/AppData/Roaming/Xilinx/Vitis/gravity/solution1/sim/verilog/webtalk.log
+# Journal file: C:/Users/alex1/AppData/Roaming/Xilinx/Vitis/gravity/solution1/sim/verilog\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/alex1/AppData/Roaming/Xilinx/Vitis/gravity/solution1/sim/verilog/xsim.dir/gravity/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/alex1/AppData/Roaming/Xilinx/Vitis/gravity/solution1/sim/verilog/xsim.dir/gravity/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Sun Feb 27 15:54:42 2022. For additional details about this file, please refer to the WebTalk help file at F:/Vivado/Vivado/2020.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Sun Feb 27 15:54:42 2022...

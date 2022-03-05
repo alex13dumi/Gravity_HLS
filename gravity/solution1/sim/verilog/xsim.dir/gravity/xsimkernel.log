@@ -1,0 +1,7 @@
+Running: xsim.dir/gravity/xsimk.exe -simmode gui -wdb gravity.wdb -simrunnum 0 -socket 51446
+Design successfully loaded
+Design Loading Memory Usage: 10204 KB (Peak: 10204 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 13848 KB (Peak: 13848 KB)
+Simulation CPU Usage: 46 ms

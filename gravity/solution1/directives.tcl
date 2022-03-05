@@ -1,0 +1,8 @@
+############################################################
+## This file is generated automatically by Vitis HLS.
+## Please DO NOT edit it.
+## Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+############################################################
+set_directive_interface -mode s_axilite -bundle CRTLS "gravity"
+set_directive_interface -mode s_axilite -bundle CRTLS "gravity" m1
+set_directive_interface -mode s_axilite -bundle CRTLS "gravity" m2
