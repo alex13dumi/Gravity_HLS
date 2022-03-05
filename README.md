@@ -1,6 +1,6 @@
 # Gravity_HLS
 This repository contains a Vivado Vitis HLS project that wants to calculate the Force of two bodies, m1 and m2. 
-Prerequisites for running the labs:
+Prerequisites for running:
 * Vitis HLS
 * Vivado
 * Vitis SDK
